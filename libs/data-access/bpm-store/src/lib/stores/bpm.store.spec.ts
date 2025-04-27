@@ -2,9 +2,9 @@ import { TestBed } from '@angular/core/testing';
 
 import { BpmStore } from './bpm.store';
 
-describe('BpmStore', () => {
-  let store: BpmStore;
+let store: BpmStore;
 
+describe('BpmStore', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({});
     store = TestBed.inject(BpmStore);

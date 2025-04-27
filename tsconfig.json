@@ -6,18 +6,18 @@
       "@bpm/button": [
         "libs/features/button/src/public-api"
       ],
-      "@bpm/chart": [
-        "libs/features/chart/src/public-api"
-      ],
       "@bpm/controls": [
         "libs/features/controls/src/public-api"
       ],
       "@bpm/dashboard": [
         "libs/features/dashboard/src/public-api"
       ],
-      "bpm-store": [
-        "./dist/bpm-store"
-      ]
+      "@bpm/data-access/bpm-store": [
+        "libs/data-access/bpm-store/src/public-api"
+      ],
+      "@bpm/scoreboard": [
+        "libs/features/scoreboard/src/public-api"
+      ],
     },
     "declaration": false,
     "esModuleInterop": true,
