@@ -1,0 +1,27 @@
+button {
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  height: 3rem;
+  text-transform: uppercase;
+  width: 150px;
+
+  &.button-primary {
+    background-color: green;
+  }
+
+  &.button-secondary {
+    background-color: #444;
+  }
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+p {
+  color: grey;
+  font-style: italic;
+  text-align: center;
+}

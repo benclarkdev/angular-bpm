@@ -19,6 +19,6 @@ export class ControlsComponent {
   }
 
   clickTap(): void {
-    this.bpmStore.recordTap();
+    this.bpmStore.recordTap(new Date());
   }
 }

@@ -18,6 +18,9 @@
       "@bpm/scoreboard": [
         "libs/features/scoreboard/src/public-api"
       ],
+      "@bpm/utilities": [
+        "libs/utilities/src/public-api"
+      ],
     },
     "declaration": false,
     "esModuleInterop": true,
