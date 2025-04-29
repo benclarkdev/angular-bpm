@@ -1,0 +1,51 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@bpm/button": [
+        "libs/features/button/src/public-api"
+      ],
+      "@bpm/controls": [
+        "libs/features/controls/src/public-api"
+      ],
+      "@bpm/dashboard": [
+        "libs/features/dashboard/src/public-api"
+      ],
+      "@bpm/data-access/bpm-store": [
+        "libs/data-access/bpm-store/src/public-api"
+      ],
+      "@bpm/scoreboard": [
+        "libs/features/scoreboard/src/public-api"
+      ],
+      "@bpm/utilities": [
+        "libs/utilities/src/public-api"
+      ],
+    },
+    "declaration": false,
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "isolatedModules": true,
+    "lib": [
+      "ES2022",
+      "dom"
+    ],
+    "module": "ES2022",
+    "moduleResolution": "bundler",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "outDir": "./dist/out-tsc",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "ES2022",
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true
+  }
+}
